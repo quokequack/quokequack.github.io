@@ -1,0 +1,209 @@
+body{
+    background-color:#000;
+    color:#fff;
+    height:190vh;
+    margin:0;
+}
+
+main{
+    display:flex;
+    margin:0;
+}
+
+.conteudo{
+    width:100%;
+    background-color:#000;
+}
+
+.sidebar {
+    background-color: #ffeb91;
+    width: 5%;
+    height: 190vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    perspective: 1000px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    height: 120vh;
+
+}
+
+.sidebar ul li {
+    font-family:"vt323";
+    font-size:5em;
+    transform:translateY(0) rotate(270deg);
+    color: #000;
+    margin-bottom:90%;
+    animation: move-up 10s linear infinite;
+
+}
+
+@keyframes move-up {
+    0% {
+        transform: translateY(0) rotate(270deg);
+    }
+    25% {
+        transform: translateY(-25%) rotate(270deg);
+    }
+    50% {
+        transform: translateY(-50%) rotate(270deg);
+    }
+    75% {
+        transform: translateY(-75%) rotate(270deg);
+    }
+    90% {
+        transform: translateY(-100%) rotate(270deg);
+    }
+    100% {
+        transform: translateY(0) rotate(270deg);
+    }
+}
+
+
+.cabecalho{
+    width:100%;
+    display:flex;
+
+}
+.cabecalho .textos{
+    font-family:"Suse";
+}
+.cabecalho .textos h1{
+    font-weight:bolder;
+    font-size: 4em;
+    background: linear-gradient(to right, #fffbfb 0, rgb(171, 177, 255) 10%, #fffbfb 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0;
+    }
+    50% {
+        background-position: 470px;
+    }
+    100% {
+        background-position: 470px;
+    }
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 60%;
+    width: 20%;
+    height:auto;
+    margin:2%;
+    border: 10px solid #fff;
+    animation: border-roll 5s linear infinite;
+    box-shadow: 0px 26px 24px -3px rgba(255, 255, 255, 0.1);
+
+
+}
+@keyframes border-roll {
+    0% {
+        border-color: #fff;
+    }
+    25% {
+        border-color:#ffa7a7;
+    }
+    50% {
+        border-color: #b8eeff;
+    }
+    75% {
+        border-color: #a8a7ff;
+    }
+    100% {
+        border-color: #ffffff;
+    }
+}
+img {
+    border-radius: 50%;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 26px 24px -3px rgba(255, 255, 255, 0.1);
+
+}
+
+.contatos, .container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.lista{
+    font-family:"Suse";
+    width:95%;
+    background-color:#bbc9ff;
+    height:6vh;
+    display:flex;
+}
+.lista h2{
+    font-size:1.7em;
+    color:#000;
+    display:flex;
+    align-items:center;
+    margin-left:2%;
+
+}
+.lista ul{
+    width:100%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content: end;
+    margin:2%;
+}
+
+.lista ul li{
+    font-size:1.5em;
+    color:#000;
+    margin-left:2%;
+
+}
+.lista ul li a{
+    cursor:pointer;
+    color: #000;
+}
+
+.experiencias{
+    margin-top:2%;
+    width:95%;
+    height:100vh;
+    background-color:#c8c6ff;
+    color:#000;
+}
+
+.academicas, .profissionais, .cursos, .habilidades{
+    font-family:'Suse';
+    margin:5%;
+
+}
+
+.tecnologias{
+    margin-top:2%;
+    width:95%;
+}
+.tecnologias h2{
+    font-family:'Suse';
+
+}
+.carousel {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+  
+  .carousel img {
+    width:10%;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 26px 24px -3px rgba(255, 255, 255, 0.1);
+  }
