@@ -12,11 +12,11 @@
 </div>
 <h2> Funcionalidades obrigatórias </h2>
 <ul>
-  <li> Fatos pessoais (foto, nome, idade e etc.) </li>
-  <li> Listagem de experiências acadêmicas e profissionais </li>
-  <li> Listagem de contatos </li>
-  <li> Listagem de habilidades</li>
-  <li> Listagem de tecnologias com as quais tenho familiaridade </li>
+  <li> Fatos pessoais (foto, nome, idade e etc.) ✅ </li>
+  <li> Listagem de experiências acadêmicas e profissionais ✅</li>
+  <li> Listagem de contatos ✅ </li>
+  <li> Listagem de habilidades ✅</li>
+  <li> Listagem de tecnologias com as quais tenho familiaridade ✅ </li>
 </ul>
 <h2> Tecnologias utilizadas </h2>
 <ul>
