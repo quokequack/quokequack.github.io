@@ -19,7 +19,8 @@
   <li> Listagem de tecnologias com as quais tenho familiaridade ✅ </li>
 </ul>
 <h2> Tecnologias utilizadas </h2>
-<ul>
-  <li> HTML </li>
-  <li> CSS </li>
-</ul>
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css" />
+  </a>
+</p>
