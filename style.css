@@ -1,7 +1,7 @@
 body{
     background-color:#000;
     color:#fff;
-    height:190vh;
+    height:200vh;
     margin:0;
 }
 
@@ -16,9 +16,9 @@ main{
 }
 
 .sidebar {
-    background-color: #ffeb91;
+    background-color: #FCEA8F;
     width: 5%;
-    height: 190vh;
+    height: 200vh;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -142,7 +142,7 @@ img {
 .lista{
     font-family:"Suse";
     width:95%;
-    background-color:#bbc9ff;
+    background-color:#cbfbde;
     height:6vh;
     display:flex;
 }
@@ -178,7 +178,7 @@ img {
     margin-top:2%;
     width:95%;
     height:100vh;
-    background-color:#c8c6ff;
+    background-color:#c1dff1;
     color:#000;
 }
 
